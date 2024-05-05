@@ -1,0 +1,22 @@
+/* Error: Only 1 argument allowed, but 2 were passed.
+ *    ,--> styles\style.scss
+ * 12 |     @include font('Work-Sans', 100);
+ *    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation
+ *    '
+ *    ,--> styles\_variables.scss
+ * 13 | @mixin font($type) {
+ *    |        =========== declaration
+ *    '
+ *   styles\style.scss 12:5  font()
+ *   styles\style.scss 12:5  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Only 1 argument allowed, but 2 were passed.\a    \250c \2500 \2500 > styles\\style.scss\a 12 \2502      @include font('Work-Sans', 100);\d\a    \2502      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation\a    \2575 \a    \250c \2500 \2500 > styles\\_variables.scss\a 13 \2502  @mixin font($type) {\d\a    \2502         \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a    \2575 \a   styles\\style.scss 12:5  font()\a   styles\\style.scss 12:5  root stylesheet";
+}
