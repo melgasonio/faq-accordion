@@ -8,11 +8,14 @@ $clrNeutral400: hsl(0, 0%, 100%);
 
 // || Typography
 
-$fntBold: url('assets/fonts/static/WorkSans-Bold.ttf');
-$fntRegular: url('assets/fonts/static/WorkSans-Regular.ttf');
-$fntRegular: url('assets/fonts/static/WorkSans-SemiBold.ttf');
+$ftwtBold: 700;
+$ftwtSemiBold: 600;
+$ftwtRegular: 400;
 
-
+@mixin font($fontFamily, $fontWeight) {
+    font-family: $fontFamily, sans-serif;
+    font-weight: $fontWeight;
+}
 // || Device width breakpoints
 
 $mobileWidth: 375px;

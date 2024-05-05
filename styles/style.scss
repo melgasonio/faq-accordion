@@ -1,3 +1,17 @@
-// Use scss-reet
-@import 'reset';
+// || SCSS-Reset
+// @import 'reset';
+
+// || Variables
 @import 'variables';
+
+// || General Styling
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+    color: green;
+    @include font('Work-Sans', 100);
+}
+
+
+// || Utility Classes
+
