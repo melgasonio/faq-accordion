@@ -1,8 +1,19 @@
+// || Sizes
+$size700: 3rem;
+$size600: 1.5rem;
+$size500: 1.25rem;
+$size400: 1rem;
+$size300: .85rem;
+$size200: .75rem;
+$size100: .5rem;
+
 // || Colors
 
 $clrPrimary400: hsl(292, 42%, 14%);
+$clrPrimary350: hsl(280, 79%, 52%);
 $clrPrimary300: hsl(292, 16%, 49%);
-$clrPrimary200: hsl(275, 100%, 97%);
+$clrPrimary200: hsl(287, 5%, 68%);
+$clrPrimary100: hsl(275, 100%, 97%);
 
 $clrNeutral400: hsl(0, 0%, 100%);
 
@@ -20,3 +31,5 @@ $ftwtRegular: 400;
 
 $mobileWidth: 375px;
 $desktopWidth: 1440px;
+
+
