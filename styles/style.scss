@@ -13,6 +13,10 @@ body {
     @include font('Work-Sans', $ftwtRegular);
     color: $clrPrimary300;
     background-color: $clrPrimary100;
+
+    p {
+        line-height: $size600;
+    }
 }
 
 // | Cover Photo
@@ -36,7 +40,7 @@ body {
 
 .questions-list {
     position: relative;
-    top: -$size700*3 - $size200;
+    top: -$size700*3 - $size200*2 ;
     max-width: 75%;
     border-radius: 20px;
     padding: $size700 $size600 $size500;
@@ -44,15 +48,47 @@ body {
 
     h1 {
         margin-bottom: $size700;
+
+        &::before  {
+            content: url("/assets/images/icon-star.svg");
+            margin-right: $size600;
+        }
     }
 
-    .question-menu .question {
-        margin-bottom: $size600;
+    .grid-head {
+        display: grid;
+        grid-template-columns: 8fr 2fr;
+        
+        .question-row {
+            display: flex;
+            justify-content: start;
+            align-items: center;
 
-        &:hover, 
-        &:focus-within {
-            color: $clrPrimary350;
+            .question {
+                span:hover,
+                span:focus-within {
+                    cursor: pointer;
+                    color: $clrPrimary350;
+                }
+            }
         }
+        
+        .button-row {
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: nowrap;
+            justify-content: end;
+            align-items: center;
+
+            span:hover, 
+            :focus-within {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .answer {
+        display: none;
     }
 }
 
@@ -60,7 +96,7 @@ body {
 // | Remarks
 
 .remarks {
-    bottom: $size400;
+    padding-top: 4rem;
     text-align: center;
 }
 
@@ -75,6 +111,10 @@ body {
 .pd-top-500 {
     padding-top: $size500;
 }
+
+.pd-block-200 {
+    padding-block: $size200;
+} 
 
 // | Border
 .border-bottom-gray {
