@@ -1,29 +1,38 @@
-// Show answer class when grid-head is clicked
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    const qtn1 = document.querySelector('#question-1');
-    const ans1 = document.querySelector('#answer-1');
-    const btn1 = document.querySelector('#button-1');
+    //  Define a variable that selects all elements with class name question menu
+    const questions = document.querySelectorAll('.question-menu');
 
-    qtn1.onclick = function() {
-        if (ans1.style.display === 'block') {
-            ans1.style.display = 'none';
-            btn1.src = "/assets/images/icon-plus.svg";
-        } else {
-            ans1.style.display = 'block';
-            btn1.src = "/assets/images/icon-minus.svg";
+    for (let i = 0; i < questions.length; i++) {
+
+        // variable for the question text of a question
+        const question = questions[i].querySelector('.question');
+        // variable for the answer of a question
+        const answer = questions[i].querySelector('.answer');
+        // variable for the button's span of a question 
+        const button = questions[i].querySelector('.button-span');
+        // variable for the button-con of a question
+        const button_icon = questions[i].querySelector('.button-icon');
+
+        // When the button is clicked
+        showAns(button, answer, button_icon);
+        showAns(question, answer, button_icon);
+
+        function showAns(element, answer, button_icon) {
+
+            element.onclick = function() {
+                if (answer.style.display === 'block') {
+                    answer.style.display = 'none';
+                    button_icon.src = "/assets/images/icon-plus.svg";
+                } else {
+                    answer.style.display = 'block';
+                    button_icon.src = "/assets/images/icon-minus.svg";
+                }
+            }
+
         }
+
     }
 
-    btn1.onclick = function() {
-        if (ans1.style.display === 'block') {
-            ans1.style.display = 'none';
-            btn1.src = "/assets/images/icon-plus.svg";
-        } else {
-            ans1.style.display = 'block';
-            btn1.src = "/assets/images/icon-minus.svg";
-        }
-    }
 });
-
