@@ -17,7 +17,7 @@ body {
 
 // | Cover Photo
 .cover-photo {
-    background-image: url("/assets/images/background-pattern-desktop.svg");  
+    background-image: url("./assets/images/background-pattern-desktop.svg");  
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -25,7 +25,7 @@ body {
 
     @media (max-width: $mobileWidth) {
         body {
-            background-image: url("/assets/images/background-pattern-mobile.svg");  
+            background-image: url("./assets/images/background-pattern-mobile.svg");  
         }
     
     }
