@@ -14,6 +14,8 @@ body {
     color: $clrPrimary300;
     background-color: $clrPrimary100;
 
+    overflow-y: scroll;
+
     p {
         line-height: $size600;
     }
@@ -93,12 +95,12 @@ body {
 }
 
 
-// | Remarks
-
+// | Remark
 .remarks {
-    padding-top: 4rem;
+    margin-inline: auto;
+    max-width: 75%;
     text-align: center;
-}
+ }
 
 // || Utility Classes
 
