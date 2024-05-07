@@ -14,7 +14,7 @@ body {
     color: $clrPrimary300;
     background-color: $clrPrimary100;
 
-    overflow-y: scroll;
+    overflow-y: scroll;;
 
     p {
         line-height: $size600;
@@ -31,7 +31,7 @@ body {
 
     @media (max-width: $mobileWidth) {
         body {
-            background-image: url("/assets/images/background-pattern-mobile.svg");  
+            background-image: url("./assets/images/background-pattern-mobile.svg");  
         }
     
     }
@@ -52,7 +52,7 @@ body {
         margin-bottom: $size700;
 
         &::before  {
-            content: url("/assets/images/icon-star.svg");
+            content: url("./assets/images/icon-star.svg");
             margin-right: $size600;
         }
     }
