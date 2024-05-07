@@ -21,13 +21,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         function showAns(element, answer, button_icon) {
 
-            element.onclick = function() {
+            element.onclick = () => {
                 if (answer.style.display === 'block') {
                     answer.style.display = 'none';
-                    button_icon.src = "/assets/images/icon-plus.svg";
+                    button_icon.src = "assets/images/icon-plus.svg";
                 } else {
                     answer.style.display = 'block';
-                    button_icon.src = "/assets/images/icon-minus.svg";
+                    button_icon.src = "assets/images/icon-minus.svg";
                 }
             }
 
