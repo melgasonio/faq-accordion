@@ -596,7 +596,7 @@ body p {
   margin-bottom: 3rem;
 }
 .questions-list h1::before {
-  content: url("./assets/images/icon-star.svg");
+  content: url("../assets/images/icon-star.svg");
   margin-right: 1.5rem;
 }
 .questions-list .grid-head {

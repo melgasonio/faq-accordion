@@ -52,7 +52,7 @@ body {
         margin-bottom: $size700;
 
         &::before  {
-            content: url("./assets/images/icon-star.svg");
+            content: url("../assets/images/icon-star.svg");
             margin-right: $size600;
         }
     }
