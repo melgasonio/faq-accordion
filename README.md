@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://github.com/melgasonio/faq-accordion)
-- Live Site URL: [Live Site](https://melgasonio.github.io/faq-accordion/)
+- [GitHub Repo](https://github.com/melgasonio/faq-accordion)
+- [Live Site](https://melgasonio.github.io/faq-accordion/)
 
 ## My process
 
@@ -129,7 +129,7 @@ Although I finished this project, I believe that my output is not at part to the
 ## Author
 
 - Website - [Mel Sonio](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/melgasonio)
+- Frontend Mentor - [Mel Sonio](https://www.frontendmentor.io/profile/melgasonio)
 
 ## Acknowledgments
 
