@@ -35,4 +35,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 
+    document.onkeydown = (e) => {
+        if (e.key === "Enter") {
+            e.activeElement.click();
+        }
+    };
+
 });
