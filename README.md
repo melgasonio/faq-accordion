@@ -16,8 +16,6 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -87,7 +85,7 @@ $ftwtRegular: 400;
 }
 ```
 
-Change img.src value during click events.
+Change values of different attributes on click events.
 ```js
             element.onclick = () => {
                 if (answer.style.display === 'block') {
@@ -103,7 +101,7 @@ Change img.src value during click events.
             }
 ```
 
-Making the question tabbable and enterable.
+Make the questions and button icons tabbable and enterable.
 ```js
     document.onkeydown = (e) => {
         if (e.key === "Enter") {
