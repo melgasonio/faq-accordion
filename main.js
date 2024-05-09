@@ -25,9 +25,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (answer.style.display === 'block') {
                     answer.style.display = 'none';
                     button_icon.src = "assets/images/icon-plus.svg";
+                    button_icon.alt = "Click to answer answer question ${i+1}.";
+
                 } else {
                     answer.style.display = 'block';
                     button_icon.src = "assets/images/icon-minus.svg";
+                    button_icon.alt = "Click to answer close question ${i+1}.";
                 }
             }
 
@@ -37,8 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.onkeydown = (e) => {
         if (e.key === "Enter") {
-            e.activeElement.click();
+            document.activeElement.click();
         }
     };
-
+    
 });
