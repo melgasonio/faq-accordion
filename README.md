@@ -34,15 +34,15 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/melgasonio/faq-accordion)
-- Live Site URL: [Add live site URL here](https://melgasonio.github.io/faq-accordion/)
+- Solution URL: [GitHub Repo](https://github.com/melgasonio/faq-accordion)
+- Live Site URL: [Live Site](https://melgasonio.github.io/faq-accordion/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- SCSS (CSS Preprocessor) (https://sass-lang.com/)
+- [SCSS (CSS Preprocessor)] (https://sass-lang.com/)
 - Flexbox
 - CSS Grid
 - Desktop-first workflow
