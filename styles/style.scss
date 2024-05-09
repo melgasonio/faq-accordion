@@ -23,7 +23,11 @@ body {
 
 // | Cover Photo
 .cover-photo {
+<<<<<<< HEAD
     background-image: url("../assets/images/background-pattern-desktop.svg");  
+=======
+    background-image: url("./assets/images/background-pattern-desktop.svg");  
+>>>>>>> 4969256f1a1c9d84a28f97cc9c4578c1a3a7f557
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -31,7 +35,11 @@ body {
 
     @media (max-width: $mobileWidth) {
         body {
+<<<<<<< HEAD
             background-image: url("../assets/images/background-pattern-mobile.svg");  
+=======
+            background-image: url("./assets/images/background-pattern-mobile.svg");  
+>>>>>>> 4969256f1a1c9d84a28f97cc9c4578c1a3a7f557
         }
     
     }
