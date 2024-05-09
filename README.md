@@ -42,7 +42,7 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- [SCSS: CSS Preprocessor] (https://sass-lang.com/)
+- [SCSS: CSS Preprocessor](https://sass-lang.com/)
 - Flexbox
 - CSS Grid
 - Desktop-first workflow
